@@ -1,0 +1,13 @@
+.idea/
+
+# Ignores all files in target except for pdf.svg files which can be shown in the README.md
+/target/*
+!/target/criterion/
+/target/criterion/*
+!/target/criterion/advent-of-code-2023/
+/target/criterion/advent-of-code-2023/*/*
+!/target/criterion/advent-of-code-2023/*/benchmark/
+/target/criterion/advent-of-code-2023/*/benchmark/*
+!/target/criterion/advent-of-code-2023/*/benchmark/report/
+/target/criterion/advent-of-code-2023/*/benchmark/report/*
+!pdf.svg
