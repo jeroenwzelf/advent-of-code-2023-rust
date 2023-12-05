@@ -7,7 +7,7 @@ pub fn days() -> &'static [(&'static str, &'static str, fn(&str) -> String)] {
     &[
         ("day01a", include_str!("input/day01.txt"), days::day01a::Day01a::run), ("day01b", include_str!("input/day01.txt"), days::day01b::Day01b::run),
         ("day02a", include_str!("input/day02.txt"), days::day02a::Day02a::run), ("day02b", include_str!("input/day02.txt"), days::day02b::Day02b::run),
-        // ("day03a", include_str!("input/day03.txt"), days::day03a::Day03a::run), ("day03b", include_str!("input/day03.txt"), days::day03b::Day03b::run),
+        ("day03a", include_str!("input/day03.txt"), days::day03a::Day03a::run), // ("day03b", include_str!("input/day03.txt"), days::day03b::Day03b::run),
         // ("day04a", include_str!("input/day04.txt"), days::day04a::Day04a::run), ("day04b", include_str!("input/day04.txt"), days::day04b::Day04b::run),
         // ("day05a", include_str!("input/day05.txt"), days::day05a::Day05a::run), ("day05b", include_str!("input/day05.txt"), days::day05b::Day05b::run),
         // ("day06a", include_str!("input/day06.txt"), days::day06a::Day06a::run), ("day06b", include_str!("input/day06.txt"), days::day06b::Day06b::run),
@@ -53,7 +53,7 @@ mod tests {
     generate_tests! {
         day01a, include_str!("../src/input/day01.txt"), "52974", days::day01a::Day01a::run; day01b, include_str!("../src/input/day01.txt"), "53340", days::day01b::Day01b::run;
         day02a, include_str!("../src/input/day02.txt"), "2632", days::day02a::Day02a::run; day02b, include_str!("../src/input/day02.txt"), "69629", days::day02b::Day02b::run;
-        // day03a, include_str!("../src/input/day03.txt"), "?", days::day03a::Day03a::run; day03b, include_str!("../src/input/day03.txt"), "?", days::day03b::Day03b::run;
+        day03a, include_str!("../src/input/day03.txt"), "535078", days::day03a::Day03a::run; // day03b, include_str!("../src/input/day03.txt"), "?", days::day03b::Day03b::run;
         // day04a, include_str!("../src/input/day04.txt"), "?", days::day04a::Day04a::run; day04b, include_str!("../src/input/day04.txt"), "?", days::day04b::Day04b::run;
         // day05a, include_str!("../src/input/day05.txt"), "?", days::day05a::Day05a::run; day05b, include_str!("../src/input/day05.txt"), "?", days::day05b::Day05b::run;
         // day06a, include_str!("../src/input/day06.txt"), "?", days::day06a::Day06a::run; day06b, include_str!("../src/input/day06.txt"), "?", days::day06b::Day06b::run;
