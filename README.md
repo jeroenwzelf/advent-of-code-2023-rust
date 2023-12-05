@@ -20,7 +20,7 @@ cargo test -- day01
 # Benchmark all puzzles
 cargo bench
 
-# Benchmark specific puzzles for day03
+# Benchmark specific puzzles for day01
 cargo bench -- advent-of-code-2023/day01
 ```
 

@@ -10,7 +10,7 @@ fn main() {
     // no arguments given, run all days
     if args.len() <= 1 {
         for day in days() {
-            println!("Result of {}: {}", day.0, day.2(day.1));
+            println!("Result of {}: {}", day.0, day.3(day.2));
         }
     }
     // with arguments describing which day(s) to run
@@ -20,7 +20,7 @@ fn main() {
             .for_each(|arg|
                 match days().iter().find(|day| arg.eq(day.0)) {
                     None => { eprintln!("Could not find day {}!", arg); exit(1); }
-                    Some(day) => { println!("Result of {}: {}", day.0, day.2(day.1)); }
+                    Some(day) => { println!("Result of {}: {}", day.0, day.3(day.2)); }
                 });
     }
 }
