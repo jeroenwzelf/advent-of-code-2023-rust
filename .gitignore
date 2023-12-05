@@ -5,9 +5,7 @@
 !/target/criterion/
 /target/criterion/*
 !/target/criterion/advent-of-code-2023/
-/target/criterion/advent-of-code-2023/*/*
-!/target/criterion/advent-of-code-2023/*/benchmark/
-/target/criterion/advent-of-code-2023/*/benchmark/*
-!/target/criterion/advent-of-code-2023/*/benchmark/report/
-/target/criterion/advent-of-code-2023/*/benchmark/report/*
-!pdf.svg
+/target/criterion/advent-of-code-2023/*
+!/target/criterion/advent-of-code-2023/report/
+/target/criterion/advent-of-code-2023/report/*
+!/target/criterion/advent-of-code-2023/report/violin.svg
