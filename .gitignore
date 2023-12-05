@@ -4,8 +4,8 @@
 /target/*
 !/target/criterion/
 /target/criterion/*
-!/target/criterion/advent-of-code-2023/
-/target/criterion/advent-of-code-2023/*
-!/target/criterion/advent-of-code-2023/report/
-/target/criterion/advent-of-code-2023/report/*
-!/target/criterion/advent-of-code-2023/report/violin.svg
+!/target/criterion/2023/
+/target/criterion/2023/*
+!/target/criterion/2023/report/
+/target/criterion/2023/report/*
+!/target/criterion/2023/report/violin.svg

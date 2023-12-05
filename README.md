@@ -21,13 +21,13 @@ cargo test -- day01
 cargo bench
 
 # Benchmark specific puzzles for day01
-cargo bench -- advent-of-code-2023/day01
+cargo bench -- 2023/day01
 ```
 
 ## Benchmarks
 All solutions are measured with [`benchmark_all.rs`](./benches/benchmark_all.rs), by 'warming up' for three seconds, and then collecting 100 samples for each benchmark. A violin plot comparison of all benchmarks is generated below. Not that these are measured very scientifically. I just like graphs.
 
-![violin plot of all benchmarks](./target/criterion/advent-of-code-2023/report/violin.svg)
+![violin plot of all benchmarks](./target/criterion/2023/report/violin.svg)
 
 ## License
 This project is released under the GNU GPL-3.0 license.
