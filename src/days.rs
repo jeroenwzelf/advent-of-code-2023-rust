@@ -2,7 +2,7 @@ pub mod day01a; pub mod day01b;
 pub mod day02a; pub mod day02b;
 pub mod day03a; pub mod day03b;
 pub mod day04a; pub mod day04b;
-// pub mod day05a; pub mod day05b;
+pub mod day05a; // pub mod day05b;
 // pub mod day06a; pub mod day06b;
 // pub mod day07a; pub mod day07b;
 // pub mod day08a; pub mod day08b;

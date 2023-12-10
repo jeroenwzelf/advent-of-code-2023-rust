@@ -9,7 +9,7 @@ pub fn days() -> &'static [(&'static str, &'static str, &'static str, fn(&str) -
         ("day02a", "day02.txt", include_str!("input/day02.txt"), days::day02a::Day02a::run), ("day02b", "day02.txt", include_str!("input/day02.txt"), days::day02b::Day02b::run),
         ("day03a", "day03.txt", include_str!("input/day03.txt"), days::day03a::Day03a::run), ("day03b", "day03.txt", include_str!("input/day03.txt"), days::day03b::Day03b::run),
         ("day04a", "day04.txt", include_str!("input/day04.txt"), days::day04a::Day04a::run), ("day04b", "day04.txt", include_str!("input/day04.txt"), days::day04b::Day04b::run),
-        // ("day05a", "day05.txt", include_str!("input/day05.txt"), days::day05a::Day05a::run), ("day05b", "day05.txt", include_str!("input/day05.txt"), days::day05b::Day05b::run),
+        ("day05a", "day05.txt", include_str!("input/day05.txt"), days::day05a::Day05a::run), // ("day05b", "day05.txt", include_str!("input/day05.txt"), days::day05b::Day05b::run),
         // ("day06a", "day06.txt", include_str!("input/day06.txt"), days::day06a::Day06a::run), ("day06b", "day06.txt", include_str!("input/day06.txt"), days::day06b::Day06b::run),
         // ("day07a", "day07.txt", include_str!("input/day07.txt"), days::day07a::Day07a::run), ("day07b", "day07.txt", include_str!("input/day07.txt"), days::day07b::Day07b::run),
         // ("day08a", "day08.txt", include_str!("input/day08.txt"), days::day08a::Day08a::run), ("day08b", "day08.txt", include_str!("input/day08.txt"), days::day08b::Day08b::run),
@@ -55,7 +55,7 @@ mod tests {
         day02a, include_str!("../src/input/day02.txt"), "2632", days::day02a::Day02a::run; day02b, include_str!("../src/input/day02.txt"), "69629", days::day02b::Day02b::run;
         day03a, include_str!("../src/input/day03.txt"), "535078", days::day03a::Day03a::run; day03b, include_str!("../src/input/day03.txt"), "75312571", days::day03b::Day03b::run;
         day04a, include_str!("../src/input/day04.txt"), "27845", days::day04a::Day04a::run; day04b, include_str!("../src/input/day04.txt"), "9496801", days::day04b::Day04b::run;
-        // day05a, include_str!("../src/input/day05.txt"), "?", days::day05a::Day05a::run; day05b, include_str!("../src/input/day05.txt"), "?", days::day05b::Day05b::run;
+        day05a, include_str!("../src/input/day05.txt"), "389056265", days::day05a::Day05a::run; // day05b, include_str!("../src/input/day05.txt"), "?", days::day05b::Day05b::run;
         // day06a, include_str!("../src/input/day06.txt"), "?", days::day06a::Day06a::run; day06b, include_str!("../src/input/day06.txt"), "?", days::day06b::Day06b::run;
         // day07a, include_str!("../src/input/day07.txt"), "?", days::day07a::Day07a::run; day07b, include_str!("../src/input/day07.txt"), "?", days::day07b::Day07b::run;
         // day08a, include_str!("../src/input/day08.txt"), "?", days::day08a::Day08a::run; day08b, include_str!("../src/input/day08.txt"), "?", days::day08b::Day08b::run;
