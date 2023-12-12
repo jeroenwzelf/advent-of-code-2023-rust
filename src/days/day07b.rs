@@ -36,7 +36,7 @@ impl Day for Day07b {
 
                 kinds.sort_unstable_by(|a, b| b.cmp(a));
 
-                let strength = match kinds[0] + jokers {
+                let strength: usize = match kinds[0] + jokers {
                     5 => 6,                     // 5 the same kind (Five of a kind)
                     4 => 5,                     // 4 the same kind (Four of a kind)
                     3 if kinds[1] == 2 => 4,    // 3+2 the same kind (Full house)
